@@ -4,20 +4,23 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
+title:            The Sensor Calibrator's Toolbox
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Making sensor calibration cool again'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Mohammad Saad'
+  url:            https://twitter.com/mohsaad230
 
 paginate:         5
+
+gems: ['jekyll-paginate']
+
+port: 8000
 
 # Custom vars
 version:          2.1.0

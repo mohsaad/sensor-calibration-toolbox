@@ -3,28 +3,22 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+In any robotics application, sensor calibration is really important - removing biases
+from sensors and estimating their position in some coordinate frame. Yet usually we don't really
+think about sensor calibration as something cool or even essential, despite it probably having more
+of an influcence on correctness than tuning a neural network might. To put it succintly - if your
+sensor isn't calibrated correctly, you'll get garbage results, no matter what algorithm you throw at it.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+![calib_toolbox](/assets/imgs/about/pict_calib_mini2.gif)
 
-There are currently two themes built on Poole:
+This blog is all about sensor calibration for robotics - what it is, techniques for calibration, validation, and anything
+else. I'll be covering cameras, LIDARs, radars, IMUs, and any other kinds of sensors you could think of. In addition,
+I'll cover new and emerging research and patents in sensor calibration that are becoming more mainstream.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+A little about me: I'm a software engineer at the Toyota Research Institute working on calibration / localization / mapping.
+Previously I worked as a software engineer at Iris Automation building out software tools for vision-based collision
+avoidance systems. In addition, I'm working on my Master's degree in Robotics at the University of Michigan - Ann Arbor.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+If yu have any questions or ideas for posts / sensors, feel free to drop me a DM on [Twitter]({{ site.author.url}}) or [Linkedin](https://linkedin.com/in/mohsaad).
 
 Thanks for reading!
