@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>The Sensor Calibrator's Toolbox</title>
+ <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
+ <link href="http://hyde.getpoole.com/"/>
+ <updated>2021-05-28T12:06:17-05:00</updated>
+ <id>http://hyde.getpoole.com</id>
+ <author>
+   <name>Mohammad Saad</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Intro</title>
+   <link href="http://hyde.getpoole.com/2021/05/28/Intro/"/>
+   <updated>2021-05-28T00:00:00-05:00</updated>
+   <id>http://hyde.getpoole.com/2021/05/28/Intro</id>
+   <content type="html">&lt;p&gt;In any robotics or industrial application, sensor calibration is really important - removing biases
+from sensors and estimating their position in some coordinate frame. Yet usually we don&amp;#39;t really
+think about sensor calibration as something cool or even essential, despite it probably having more
+of an influcence on correctness than tuning a neural network might. To put it succintly - if your
+data isn&amp;#39;t calibrated correctly, you&amp;#39;ll get garbage results, no matter what algorithm you throw at it.&lt;/p&gt;
+
+&lt;p&gt;This blog is all about sensor calibration - what it is, techniques for calibration, validation, and anything
+else. I&amp;#39;ll be covering cameras, LIDARs, radars, IMUs, and any other kinds of sensors you could think of. In addition,
+I&amp;#39;ll cover new and emerging research and patents in sensor calibration that are becoming more mainstream.&lt;/p&gt;
+
+&lt;p&gt;A little about me: I&amp;#39;m a software engineer at the Toyota Research Institute working on calibration / localization / mapping.
+Previously I worked as a software engineer at Iris Automation building out software tools for vision-based collision
+avoidance systems. In addition, I&amp;#39;m working on my Master&amp;#39;s degree in Robotics at the University of Michigan - Ann Arbor.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
